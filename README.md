@@ -42,27 +42,6 @@ docs/                             declaración de uso de IA y notas
 
 **En Google Colab:** subir `Event_occurrence_matrix.csv` y `anomaly_label.csv` a `/content`, y ejecutar el cuaderno.
 
-## Resultados
-
-_(Se completa al terminar la evaluación en prueba.)_
-
-| Modelo                           | Precisión | Recall | F1  |
-| -------------------------------- | --------- | ------ | --- |
-| Trivial: aleatorio estratificado |           |        |     |
-| Trivial: clase mayoritaria       |           |        |     |
-| Regresión logística              |           |        |     |
-| Árbol de decisión por defecto    |           |        |     |
-| **Árbol de decisión ajustado**   |           |        |     |
-
-Referencia de literatura: F1 = 0.9410 (Yu et al. 2024). No es directamente comparable: usa otro protocolo de deduplicación y partición.
-
-## Limitaciones
-
-_(Se completa al terminar.)_
-
-## Declaración de uso de IA
-
-Ver la sección 0 del cuaderno.
 
 ## Referencias
 
