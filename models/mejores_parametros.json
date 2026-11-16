@@ -1,0 +1,9 @@
+{
+ "clf__ccp_alpha": 0.001,
+ "clf__class_weight": null,
+ "clf__criterion": "gini",
+ "clf__max_depth": 8,
+ "clf__min_samples_leaf": 1,
+ "feat__add_proportions": false,
+ "feat__add_totals": true
+}
