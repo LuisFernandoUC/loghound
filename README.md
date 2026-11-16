@@ -31,7 +31,6 @@ data/                             datos (ver data/README.md)
 results/                          métricas y resultados de la búsqueda
 figures/                          curva de aprendizaje y gráficos SHAP
 models/                           modelo entrenado y metadatos
-docs/                             declaración de uso de IA y notas
 ```
 
 ## Cómo reproducirlo
