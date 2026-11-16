@@ -1,0 +1,53 @@
+{
+ "semilla": 42,
+ "particion": "60/20/20 por vector \u00fanico, estratificada",
+ "validacion_cruzada": "StratifiedGroupKFold(5), agrupada por vector",
+ "metrica_busqueda": "f1",
+ "regla_parsimonia": "configuraciones a menos de 0.005 de F1 del mejor; se elige la m\u00e1s simple",
+ "rejilla": {
+  "feat__add_totals": [
+   false,
+   true
+  ],
+  "feat__add_proportions": [
+   false,
+   true
+  ],
+  "clf__criterion": [
+   "gini",
+   "entropy"
+  ],
+  "clf__max_depth": [
+   3,
+   5,
+   8,
+   12,
+   null
+  ],
+  "clf__min_samples_leaf": [
+   1,
+   2,
+   5,
+   10
+  ],
+  "clf__ccp_alpha": [
+   0.0,
+   0.001,
+   0.01
+  ],
+  "clf__class_weight": [
+   null,
+   "balanced"
+  ]
+ },
+ "mejores_parametros": {
+  "clf__ccp_alpha": 0.001,
+  "clf__class_weight": null,
+  "clf__criterion": "gini",
+  "clf__max_depth": 8,
+  "clf__min_samples_leaf": 1,
+  "feat__add_proportions": false,
+  "feat__add_totals": true
+ },
+ "baseline_literatura_f1": 0.941
+}

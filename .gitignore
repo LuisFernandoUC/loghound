@@ -1,0 +1,9 @@
+# datos grandes (se descargan según data/README.md)
+data/Event_occurrence_matrix.csv
+data/anomaly_label.csv
+
+# entornos y temporales
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
