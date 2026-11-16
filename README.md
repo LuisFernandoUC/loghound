@@ -37,7 +37,7 @@ models/                           modelo entrenado y metadatos
 
 1. Instalar dependencias: `pip install -r requirements.txt`
 2. Descargar los datos siguiendo `data/README.md` y copiarlos a `data/`.
-3. Ejecutar `notebooks/Etapa2_Modelado.ipynb` de arriba abajo. Semilla fija: `SEED = 42`.
+3. Ejecutar `notebooks/Etapa2.ipynb` de arriba abajo. Semilla fija: `SEED = 42`.
 
 **En Google Colab:** subir `Event_occurrence_matrix.csv` y `anomaly_label.csv` a `/content`, y ejecutar el cuaderno.
 
